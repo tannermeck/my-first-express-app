@@ -5,4 +5,7 @@
 1. Run `npm init -y` -- creates a `package.json` file -- go ahead and acp
 1. Install Express App dependencies with `npm i express upertest jest   cors`
 1. Add a .gitignore and add `node_modules`
-1. 
+
+# Deploying on Heroku
+1. Heroku login
+1.git remove -v == confirm you dont already have
