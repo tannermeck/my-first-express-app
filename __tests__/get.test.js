@@ -4,14 +4,14 @@ const request = supertest(app);
 
 const data = require('../data.js');
 
-it('gets the dogs endpoint', async () => {
+it('gets the dirtbike endpoint', async () => {
     const response = await request.get('/dirtbikes');
 
     expect(response.status).toBe(200);
     expect(response.body).toEqual(data);
 });
 it('gets the dirtbike show endpoint', async () => {
-    const response = await request.get('puppies/1');
+    const response = await request.get('/dirtbikes/1');
     expect(response.status).toBe(200);
     expect(response.body).toEqual(data[0])
 })
