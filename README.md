@@ -21,6 +21,6 @@
 1. ACP the change to package.json
 1. Deploy the code using
    `git push heroku main` (if you are on the main branch)
-   `git push heroku dev:main` (id you are on the dev branch)
+   `git push heroku dev:main` (if you are on the dev branch)
 
 
